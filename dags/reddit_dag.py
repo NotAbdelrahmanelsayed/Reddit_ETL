@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
@@ -6,6 +7,19 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+=======
+import os 
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from datetime import datetime
+from pipelines.reddit_pipeline import reddit_pipeline
+
+
+
+>>>>>>> 833acef (fixing secrets)
 
 default_args = {
     "owner": "abdelrahman",
@@ -32,5 +46,13 @@ extract = PythonOperator(
         'subreddit': 'dataengineering',
         'time_filter': 'day',
         'limit': 100
+<<<<<<< HEAD
     }
 )
+=======
+    },
+    dag=dag
+)
+
+extract
+>>>>>>> 833acef (fixing secrets)
