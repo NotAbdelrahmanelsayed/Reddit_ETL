@@ -173,5 +173,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-config/config.env
-config/config.conf
+config
