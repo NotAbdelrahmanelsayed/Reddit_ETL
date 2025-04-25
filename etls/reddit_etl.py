@@ -1,6 +1,7 @@
 from praw import Reddit # type: ignore
 from utils.constants import POST_FIELDS
 import sys
+
 def connect_reddit(client_id, client_secret, user_agent) -> Reddit:
     try:
         reddit = Reddit(
