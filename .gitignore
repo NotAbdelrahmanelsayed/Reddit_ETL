@@ -174,3 +174,4 @@ cython_debug/
 .pypirc
 
 config/config.env
+config/config.conf
