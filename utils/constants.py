@@ -4,8 +4,11 @@ import os
 parser = configparser.ConfigParser()
 parser.read(os.path.join(os.path.dirname(__file__), "../config/config.conf"))
 
-SECRET = parser.get("api_keys", "reddit_secret_key")
-CLIENT_ID = parser.get("api_keys", "reddit_client_id")
+# SECRET = parser.get("api_keys", "reddit_secret_key")
+# CLIENT_ID = parser.get("api_keys", "reddit_client_id")
+SECRET = os.getenv("reddit_secret_key")#parser.get("api_keys", "reddit_secret_key"))
+CLIENT_ID = os.getenv("reddit_client_id")#parser.get("api_keys", "reddit_client_id"))
+print(SECRET)
 
 DATABASE_HOST = parser.get("database", "database_host")
 DATABASE_NAME = parser.get("database", "database_name")

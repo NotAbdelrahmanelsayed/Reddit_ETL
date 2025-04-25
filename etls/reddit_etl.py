@@ -25,3 +25,5 @@ def extract_post(reddit_instance, subreddit, time_filter, limit=None) -> None:
     for post in posts:
         post_dict = vars(post)
         post = {key: post_dict[key] for key in POST_FIELDS}
+    
+    return post_list
