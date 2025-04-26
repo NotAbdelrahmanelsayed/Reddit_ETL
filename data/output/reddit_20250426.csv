@@ -1,23 +1,262 @@
-id,title,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
-1k8h96p,𝐃𝐨𝐨𝐫𝐃𝐚𝐬𝐡 𝐃𝐚𝐭𝐚 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤,82,10,mjfnd,2025-04-26 16:42:26,https://i.redd.it/lj3dfdf3j7xe1.jpeg,0.91,False,False,False,False
-1k83uee,How to use Airflow and dbt together? (in a medallion architecture or otherwise),22,18,ArtMysterious,2025-04-26 03:44:02,https://www.reddit.com/r/dataengineering/comments/1k83uee/how_to_use_airflow_and_dbt_together_in_a/,0.85,False,False,False,False
-1k86ldy,Mongodb vs Postgres,21,43,lamanaable,2025-04-26 06:35:42,https://www.reddit.com/r/dataengineering/comments/1k86ldy/mongodb_vs_postgres/,0.82,False,False,False,False
-1k8k8s8,This environment would be a real nightmare for me.,23,3,takuonline,2025-04-26 18:52:12,https://www.reddit.com/r/dataengineering/comments/1k8k8s8/this_environment_would_be_a_real_nightmare_for_me/,0.9,False,False,False,False
-1k8eqvm,DevOps and Data Engineering — Which Offers More Career Flexibility?,16,13,MazenMohamed1393,2025-04-26 14:52:37,https://www.reddit.com/r/dataengineering/comments/1k8eqvm/devops_and_data_engineering_which_offers_more/,0.79,False,False,False,False
-1k8dmdp,Have you ever used record linkage / entity resolution at your job?,15,27,diogene01,2025-04-26 14:00:50,https://www.reddit.com/r/dataengineering/comments/1k8dmdp/have_you_ever_used_record_linkage_entity/,0.9,False,False,False,False
-1k8au6k,"How would you manage multiple projects using Airflow + SQLMesh? Small team of 4 (3 DEs, 1 DA)",14,3,Friendly-Village-368,2025-04-26 11:31:28,https://www.reddit.com/r/dataengineering/comments/1k8au6k/how_would_you_manage_multiple_projects_using/,0.95,False,False,False,False
-1k7yq0d,Coalesce.io vs dbt,10,24,poopybaaara,2025-04-25 23:14:13,https://www.reddit.com/r/dataengineering/comments/1k7yq0d/coalesceio_vs_dbt/,0.82,False,False,False,False
-1k8jmbo,Are we missing the point of data catalogs? Why don't they control data access too?,9,4,mjf-89,2025-04-26 18:24:38,https://www.reddit.com/r/dataengineering/comments/1k8jmbo/are_we_missing_the_point_of_data_catalogs_why/,0.91,False,False,False,False
-1k7yi4k,Career path into DE,7,6,farquaadscumsock,2025-04-25 23:03:27,https://www.reddit.com/r/dataengineering/comments/1k7yi4k/career_path_into_de/,0.71,False,False,False,False
-1k82dcn,Clustering with an incremental merge strategy,4,4,Agile-Struggle-917,2025-04-26 02:22:43,https://www.reddit.com/r/dataengineering/comments/1k82dcn/clustering_with_an_incremental_merge_strategy/,0.76,False,False,False,False
-1k890ay,How to handle faulty records coming in to be able to report on DQ?,6,0,epoksismola,2025-04-26 09:26:12,https://www.reddit.com/r/dataengineering/comments/1k890ay/how_to_handle_faulty_records_coming_in_to_be_able/,1.0,False,False,False,False
-1k7uyl1,Looking at Soda/Soda Core for data quality - not much discussion?,4,1,Melodic_One4333,2025-04-25 20:26:28,https://www.reddit.com/r/dataengineering/comments/1k7uyl1/looking_at_sodasoda_core_for_data_quality_not/,0.83,False,False,False,False
-1k8gtl2,need some advice,3,0,PRdEstudio,2025-04-26 16:23:42,https://www.reddit.com/r/dataengineering/comments/1k8gtl2/need_some_advice/,1.0,False,False,False,False
-1k8cv48,Customer Database Mapping and Migration – Best Practices?,2,7,Prestigious_Flow_465,2025-04-26 13:23:43,https://www.reddit.com/r/dataengineering/comments/1k8cv48/customer_database_mapping_and_migration_best/,0.76,False,1745675924.0,False,False
-1k8kqht,any database experts?,1,4,BigCountry1227,2025-04-26 19:13:35,https://www.reddit.com/r/dataengineering/comments/1k8kqht/any_database_experts/,1.0,False,False,False,False
-1k8k0jz,Apache Kafka Resources for Beginner,1,1,Any-Homework4133,2025-04-26 18:41:53,https://www.reddit.com/r/dataengineering/comments/1k8k0jz/apache_kafka_resources_for_beginner/,1.0,False,False,False,False
-1k8jz47,Should we use SCD Type 1 instead of Type 2 for our DWH when analytics only needs current data?,2,2,TheWiseMan0459,2025-04-26 18:40:10,https://www.reddit.com/r/dataengineering/comments/1k8jz47/should_we_use_scd_type_1_instead_of_type_2_for/,1.0,False,False,False,False
-1k893vx,Data modeling question to split or not to split,1,3,Commercial_Dig2401,2025-04-26 09:33:19,https://www.reddit.com/r/dataengineering/comments/1k893vx/data_modeling_question_to_split_or_not_to_split/,0.67,False,False,False,False
-1k7wknk,Thoughts on keeping source ids in unified dimensions,1,8,Macandcheeseilf,2025-04-25 21:35:02,https://www.reddit.com/r/dataengineering/comments/1k7wknk/thoughts_on_keeping_source_ids_in_unified/,0.67,False,False,False,False
-1k8jnxf,Need opinion ( iam newbie to BI but they sent me this task),0,5,Ok-Watercress-451,2025-04-26 18:26:36,https://www.reddit.com/gallery/1k8jnxf,0.31,False,False,False,False
-1k862la,Would you use this tool? AI that writes SQL queries from natural language.,0,9,IamVeK,2025-04-26 06:01:23,https://www.reddit.com/r/dataengineering/comments/1k862la/would_you_use_this_tool_ai_that_writes_sql/,0.31,False,False,False,False
+id,selftext,title,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1k8h96p,"Hi everyone!
+
+Covering another article in my Data Tech Stack Series. If interested in reading all the data tech stack previously covered (Netflix, Uber, Airbnb, etc), checkout [here](https://www.junaideffendi.com/t/tech-stack).
+
+This time I share Data Tech Stack used by DoorDash to process hundreds of Terabytes of data every day.
+
+DoorDash has handled over 5 billion orders, $100 billion in merchant sales, and $35 billion in Dasher earnings. Their success is fueled by a data-driven strategy, processing massive volumes of event-driven data daily.
+
+  
+The article contains the references, architectures and links, please give it a read: [https://www.junaideffendi.com/p/doordash-data-tech-stack?r=cqjft&utm\_campaign=post&utm\_medium=web&showWelcomeOnShare=false](https://www.junaideffendi.com/p/doordash-data-tech-stack?r=cqjft&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
+
+
+
+What company would you like see next, comment below.
+
+
+
+Thanks",𝐃𝐨𝐨𝐫𝐃𝐚𝐬𝐡 𝐃𝐚𝐭𝐚 𝐓𝐞𝐜𝐡 𝐒𝐭𝐚𝐜𝐤,84,10,mjfnd,2025-04-26 16:42:26,https://i.redd.it/lj3dfdf3j7xe1.jpeg,0.9,False,False,False,False
+1k83uee,"In my understanding Airflow is for orchestrating transformations. 
+
+And dbt is for orchestrating transformations as well.
+
+Typically Airflow calls dbt, but typically dbt doesn't call Airflow.
+
+It seems to me that when you use both, you will use Airflow for ingestion, and then call dbt to do all transformations (e.g. bronze > silver > gold)
+
+Are these assumptions correct?
+
+How does this work with Airflow's concept of running DAGs per day?
+
+Are there complications when backfilling data?
+
+I'm curious what people's setups look like in the wild and what are their lessons learned.",How to use Airflow and dbt together? (in a medallion architecture or otherwise),22,19,ArtMysterious,2025-04-26 03:44:02,https://www.reddit.com/r/dataengineering/comments/1k83uee/how_to_use_airflow_and_dbt_together_in_a/,0.85,False,False,False,False
+1k86ldy,"We are looking at creating a new internal database using mongodb, we have spent a lot of time with a postgres db but have faced constant schema changes as we are developing our data model and understanding of client requirements. 
+
+It seems that the flexibility of the document structure is desirable for us as we develop but I would be curious if anyone here has similar experience and could give some insight.",Mongodb vs Postgres,20,43,lamanaable,2025-04-26 06:35:42,https://www.reddit.com/r/dataengineering/comments/1k86ldy/mongodb_vs_postgres/,0.81,False,False,False,False
+1k8k8s8,"YouTube released some interesting metrics for their 20 year celebration and their data environment is just insane.
+
+- Processing infrastructure handling 20+ million daily video uploads 
+- Storage and retrieval systems managing 20+ billion total videos
+- Analytics pipelines tracking 3.5+ billion daily likes and 100+ million daily comments
+- Real-time processing of engagement metrics (creator-hearted comments reaching 10 million daily)
+- Infrastructure supporting multimodal data types (video, audio, comments, metadata)
+
+From an analytics point of view, it would be extremely difficult to validate anything you build in this environment, especially if it's something that is very obscure. 
+Supposed they calculate a ""Content Stickiness Factor"" (a metric which quantifies how much a video prevents users from leaving the platform), 
+how would anyone validate that a factor of 0.3 is correct for creator X? That is just for 1 creator in one segment, there are different segments which all have different behaviors eg podcasts which might be longer vs shorts
+
+I would assume training ml models, or basic queries would be either slow or very expensive which punishes mistakes a lot. You either run 10 computer for 10 days or or 2000 computers for 1.5 hours, and if you forget that 2000 computer cluster running, for just a few minutes for lunch maybe, or worse over the weekend, you will come back to regret it.
+
+Any mistakes you do are amplified by the amount of data, you omitting a single ""LIMIT 10"" or use a ""SELECT * "" in the wrong place and you could easy cost the company millions of dollars.
+""Forgot a single cluster running, well you just lost us $10 million dollars buddy""
+
+And because of these challenges, l believe such an environment demands excellence, not to ensure that no one makes mistakes, but to prevent obvious ones and reduce the probability of catastrophic ones.
+
+l am very curious how such an environment is managed and would love to see it someday.
+
+I have gotten to a point in my career where l have to start thinking about things like this, so can anyone who has worked in this kind of environment share tips of how to design an environment like this to make it ""safer"" to work in.
+
+
+
+[YouTube article](https://blog.youtube/news-and-events/happy-birthday-youtube-20/)",This environment would be a real nightmare for me.,22,3,takuonline,2025-04-26 18:52:12,https://www.reddit.com/r/dataengineering/comments/1k8k8s8/this_environment_would_be_a_real_nightmare_for_me/,0.87,False,False,False,False
+1k8eqvm,"I’m a final-year student and I'm really confused between two fields: DevOps and Data Engineering.
+I have one main question:
+Is DevOps a broader career path where it's relatively very easy to shift into areas like DataOps, MLOps, or CyberOps?
+And is Data Engineering a more specialized field, making it harder to transition into any other areas?
+Or are both fields similar in terms of career flexibility?",DevOps and Data Engineering — Which Offers More Career Flexibility?,15,13,MazenMohamed1393,2025-04-26 14:52:37,https://www.reddit.com/r/dataengineering/comments/1k8eqvm/devops_and_data_engineering_which_offers_more/,0.79,False,False,False,False
+1k8dmdp,"I started a new project in which I get data about organizations from multiple sources and one of the things I need to do is match entities across the data sources, to avoid duplicates and create a single source of truth. The problem is that there is no shared attribute across the data sources. So I started doing some research and apparently this is called record linkage (or entity matching/resolution). I saw there are many techniques, from measuring text similarity to using ML. So my question is, if you faced this problem at your job, what techniques did you use? What were you biggest learnings? Do you have any advice?",Have you ever used record linkage / entity resolution at your job?,18,27,diogene01,2025-04-26 14:00:50,https://www.reddit.com/r/dataengineering/comments/1k8dmdp/have_you_ever_used_record_linkage_entity/,0.95,False,False,False,False
+1k8au6k,"Hey everyone,
+We're a small data team (3 data engineers + 1 data analyst). Two of us are strong in Python, and all of us are good with SQL.
+We're considering setting up a stack composed of Airflow (for orchestration) and SQLMesh (for transformations and environment management).
+
+We'd like to handle multiple projects (different domains, data products, etc.) and are wondering:
+
+How would you organize your SQLMesh and Airflow setup for multiple projects?
+
+Would you recommend one Airflow instance per project or a single shared instance?
+
+Would you create separate SQLMesh repositories, or one monorepo with clear separation between projects?
+
+Any tips for keeping things scalable and manageable for a small but fast-moving team?
+
+
+Would love to hear from anyone who has worked with SQLMesh + Airflow together, or has experience managing multi-project setups in general!
+
+Thanks a lot!","How would you manage multiple projects using Airflow + SQLMesh? Small team of 4 (3 DEs, 1 DA)",12,3,Friendly-Village-368,2025-04-26 11:31:28,https://www.reddit.com/r/dataengineering/comments/1k8au6k/how_would_you_manage_multiple_projects_using/,0.85,False,False,False,False
+1k7yq0d,"My company is considering Coalesce.io and dbt. I used dbt at my last job and loved it, so I'm already biased. I haven't tried Coalesce yet. Anybody tried both? 
+
+I'd like to know how well coalesce does version control - can I see at a glance how transformations changed between one version and the next? Or all the changes I'm committing?
+",Coalesce.io vs dbt,11,24,poopybaaara,2025-04-25 23:14:13,https://www.reddit.com/r/dataengineering/comments/1k7yq0d/coalesceio_vs_dbt/,0.83,False,False,False,False
+1k8jmbo,"Hi there, 
+
+I've been thinking about the current generation of data catalogs like DataHub and OpenMetadata, and something doesn't add up for me. They do a great job tracking metadata, but stop short of doing what seems like the next obvious step, actually helping enforce data access policies.
+
+Imagine a unified catalog that isn't just a metadata registry, but also the gatekeeper to data itself:
+
+- Roles defined at the catalog level map directly to roles and grants on underlying sources through credential-vending.
+
+- Every access, by a user or a pipeline, goes through the catalog first, creating a clean audit trail.
+
+Iceberg’s REST catalog hints at this model: it stores table metadata and acts as a policy-enforcing access layer, managing credentials for the object storage underneath.
+
+Why not generalize this idea to all structured and unstructured data? Instead of just listing a MySQL table or an S3 bucket of PDFs, the catalog would also vend credentials to access them. Instead of relying on external systems for access control, the catalog becomes the control plane.
+
+This would massively improve governance, observability, and even simplify pipeline security models.
+
+Is there any OSS project trying to do this today?
+
+Are there reasons (technical or architectural) why projects like DataHub and OpenMetadata avoid owning the access control space?
+
+Would you find it valuable to have a catalog that actually controls access, not just documents it?
+",Are we missing the point of data catalogs? Why don't they control data access too?,9,4,mjf-89,2025-04-26 18:24:38,https://www.reddit.com/r/dataengineering/comments/1k8jmbo/are_we_missing_the_point_of_data_catalogs_why/,0.91,False,False,False,False
+1k7yi4k,"Hello everyone,
+
+I’m currently a 3rd-year university student at a relatively large, middle-of-the-road American university. I am switching into Data Science from engineering, and would like to become a data engineer or data scientist once I graduate. Right now I’ve had a part-time student data scientist position sponsored by my university for about a year working ~15 hours a week during the school year and ~25-30 hours a week during breaks. I haven’t had any internships, since I just switched into the Data Science major. I’m also considering taking a minor in statistics, and I want to set myself up for success in Data Engineering once I graduate. Given my situation, what advice would you offer? I’m not sure if a Master’s is useful in the field, or if a PhD is important. Are there majors which would make me better equipped for the field, and how can I set myself up best to get an internship for Summer 2026? My current workplace has told me frequently that I would likely have a full-time offer waiting when I graduate if I’m interested. 
+
+
+
+Thank you for any advice you have.",Career path into DE,5,6,farquaadscumsock,2025-04-25 23:03:27,https://www.reddit.com/r/dataengineering/comments/1k7yi4k/career_path_into_de/,0.67,False,False,False,False
+1k82dcn,"Apologies if this is a silly question, but I'm trying to understand how clustering actually works  / processes, when it's applied / how it's applied in BigQuery.
+
+Reason being I'm trying to help myself answer questions like, if we have an incremental model with a merge strategy then does clustering get applied when the merge is looking to find a row match on the unique key defined, and updates the correct attributes? Or is clustering only beneficial for querying and not ever for table generation?",Clustering with an incremental merge strategy,5,4,Agile-Struggle-917,2025-04-26 02:22:43,https://www.reddit.com/r/dataengineering/comments/1k82dcn/clustering_with_an_incremental_merge_strategy/,0.86,False,False,False,False
+1k890ay,"I work on a data platform and currently we have several new ingestions coming in Databricks, Medallion architecture. 
+
+I asked the 2 incoming sources to fill in table schema which contains column name, description, data type, primary key and constraints. Most important are data types and constraints in terms of tracking valid and invalid records. 
+
+We are cureently at the stage to start tracking dq across the whole platform. So i am wondering what is the best way to start with this?
+
+I had the idea to ingest everythig as is to bronze layer. Then before going to silver, check if recoeds are following the data shema, are constraints met (f.e. values within specified ranges, formatting of timestamps etc). If there are records which do not meet these rules, i was thinking about putting them to quarantine. 
+
+My question, how to quarantine them? And if there are faulty records found, should we immediately alert the source or only if a certain percentage of records are faulty?
+
+Also should we add another column in silver 'valid' which would signify if the record is meeting the table schema and constraints defined? So that would be the way to use this column and report on % of faulty records which could be a part of a DQ dashboard?
+
+",How to handle faulty records coming in to be able to report on DQ?,5,0,epoksismola,2025-04-26 09:26:12,https://www.reddit.com/r/dataengineering/comments/1k890ay/how_to_handle_faulty_records_coming_in_to_be_able/,0.86,False,False,False,False
+1k7uyl1,"I'm looking for a good quality suite and stumbled on Soda recently, but I don't see much discussion here, which I find weird. Anyone here using it, or abandoned it?",Looking at Soda/Soda Core for data quality - not much discussion?,3,1,Melodic_One4333,2025-04-25 20:26:28,https://www.reddit.com/r/dataengineering/comments/1k7uyl1/looking_at_sodasoda_core_for_data_quality_not/,0.67,False,False,False,False
+1k8gtl2,"I am a data engineer from China with three years of post - undergraduate experience. 
+I spent the first two years engaged in big data development in the financial industry, mainly working on data collection, data governance, report development, and data warehouse development in banks. 
+Last year, I switched to a large internet company for data development. A significant part of my work there was the crowd portrait labeling project. I developed some labels according to the needs of operations and products. Besides, based on my understanding of the business, I created some rule - based and algorithmic predictive labels. 
+The algorithmic label part was something I had no previous contact with, and I found myself quite interested in it. I would like to know how I can develop if I go down this path in the future.",need some advice,3,0,PRdEstudio,2025-04-26 16:23:42,https://www.reddit.com/r/dataengineering/comments/1k8gtl2/need_some_advice/,1.0,False,False,False,False
+1k8cv48,"My employer has acquired several smaller businesses. We now have overlapping customer bases and need to map, then migrate, the customer data.
+
+We already have many of their customers in our system, while some are new (new customers are not an issue). For the common ones, I need to map their customer IDs from their database to ours.  
+We have around 200K records; they have about 70K. The mapping needs to be based on account and address.
+
+I’m currently using Excel, but it’s slow and inefficient.  
+Could you please share best practices, methodologies, or tools that could help speed up this process? Any tips or advice would be highly appreciated!
+
+Edit: In many cases there is no unique identifier, names and addresses are written similarly but not exactly. This causes a pain!",Customer Database Mapping and Migration – Best Practices?,2,7,Prestigious_Flow_465,2025-04-26 13:23:43,https://www.reddit.com/r/dataengineering/comments/1k8cv48/customer_database_mapping_and_migration_best/,0.76,False,False,False,False
+1k8kqht,"im writing \~5 million rows from a pandas dataframe to an azure sql database. however, it's super slow.
+
+any ideas on how to speed things up? ive been troubleshooting for days, but to no avail.
+
+Simplified version of code:
+
+    import pandas as pd
+    import sqlalchemy
+    
+    engine = sqlalchemy.create_engine(""<url>"", fast_executemany=True)
+    with engine.begin() as conn:
+        df.to_sql(
+            name=""<table>"",
+            con=conn,
+            if_exists=""fail"",
+            chunksize=1000,
+            dtype=<dictionary of data types>,
+        )
+
+database metrics:
+
+https://preview.redd.it/4bw00ejoa8xe1.png?width=851&format=png&auto=webp&s=73e2dc92d1ee43b3f4b1ce58f29175da2c251862",any database experts?,1,4,BigCountry1227,2025-04-26 19:13:35,https://www.reddit.com/r/dataengineering/comments/1k8kqht/any_database_experts/,1.0,False,False,False,False
+1k8k0jz,"Hi,
+I want to start apache Kafka. I have some idea of it coz I am little exposed to Google Cloud Pub/Sub. 
+Could anyone pls help me with the good youtube videos or courses for learning ?",Apache Kafka Resources for Beginner,1,1,Any-Homework4133,2025-04-26 18:41:53,https://www.reddit.com/r/dataengineering/comments/1k8k0jz/apache_kafka_resources_for_beginner/,1.0,False,False,False,False
+1k8jz47,"# Our Current Data Pipeline
+
+* PostgreSQL OLTP database as source
+* Data pipeline moves data to BigQuery at different frequencies:
+   * Critical tables: hourly
+   * Less critical tables: daily
+* Two datasets in BigQuery:
+   * **Raw dataset**: Always appends new data (similar to SCD Type 2 but without surrogate keys, current flags, or valid\_to dates)
+   * **Clean dataset**: Only contains latest data from raw dataset
+
+# Our Planned Revamp
+
+We're implementing dimensional modeling to create proper OLAP tables.
+
+**Original plan:**
+
+1. Create DBT snapshots (SCD Type 2) from raw dataset
+2. Build dimension and fact tables from these snapshots
+
+**Problem:**
+
+* SCD Type 2 implementation is resource-intensive
+* Causes full table scans in BigQuery (expensive)
+* Requires complex joins and queries
+
+# The Reality of Our Analytics Needs
+
+* Analytics team **only uses latest data** for insights
+* Historical change tracking isn't currently used
+* Raw dataset already exists if historical analysis is needed in rare cases
+
+# Our Potential Solution
+
+Instead of creating snapshots, we plan to:
+
+* Skip the SCD Type 2 snapshot process entirely
+* Build dimension tables (SCD Type 1) directly from our raw tables
+* Leverage the fact that our raw tables already implement a form of SCD Type 2 (they contain historical data through append-only inserts)
+* Update dimensions with latest data only
+
+This approach would:
+
+* Reduce complexity
+* Lower BigQuery costs
+* Match current analytics usage patterns
+* Still allow historical access via raw dataset if needed
+
+# Questions
+
+1. Is our approach to implement SCD Type 1 reasonable given our specific use case?
+2. What has your experience been if you've faced similar decisions?
+3. Are there drawbacks to this approach we should consider?
+
+Thanks for any insights you can share!",Should we use SCD Type 1 instead of Type 2 for our DWH when analytics only needs current data?,2,2,TheWiseMan0459,2025-04-26 18:40:10,https://www.reddit.com/r/dataengineering/comments/1k8jz47/should_we_use_scd_type_1_instead_of_type_2_for/,1.0,False,False,False,False
+1k893vx,"I often end up doing the same where clause in most of my downstream models. Like ‘where is_active’ or for a specific type like ‘where country = xyz’.
+
+I’m wondering when it’s a good idea to create a new model/table/views for this and when it’s not?
+
+I found that having it makes it way simpler at first because downstream models only have to select from the filtered table to have what they need without issues. But as time flys you end up with 50 subset tables of the same thing which is not that good.
+
+And if you don’t then you see that the same filters are reused over and over again but also that this generates issues if for example downstream models should look for 2 field for validity like ‘where country = xyz AND is_active’.
+
+So do you usually filter by types or not ? Or do you filter by active and non active records? Note that I could remove the non active records, but they are often needed in some downstream table since they were old customer that we might still want to see in our data.",Data modeling question to split or not to split,1,3,Commercial_Dig2401,2025-04-26 09:33:19,https://www.reddit.com/r/dataengineering/comments/1k893vx/data_modeling_question_to_split_or_not_to_split/,0.67,False,False,False,False
+1k7wknk,"I have a provider and customer dimensions, the ids for these dimensions were created through a mapping table, however each provider or customer can have multiple ids per source or across sources so including these “source ids” into my final dimensions would kinda deflect the purpose of the deduplication and mapping done previously. Do you guys think it’s necessary to include these ids for a basic sales analysis?",Thoughts on keeping source ids in unified dimensions,1,8,Macandcheeseilf,2025-04-25 21:35:02,https://www.reddit.com/r/dataengineering/comments/1k7wknk/thoughts_on_keeping_source_ids_in_unified/,0.67,False,False,False,False
+1k8jnxf,"First of all thanks. A company response to me with this technical task . This is my first dashboard btw 
+
+
+So iam trying to do my best so idk why i feel this dashboard is newbie look like not like the perfect dashboards i see on LinkedIn. 
+
+
+",Need opinion ( iam newbie to BI but they sent me this task),0,5,Ok-Watercress-451,2025-04-26 18:26:36,https://www.reddit.com/gallery/1k8jnxf,0.31,False,False,False,False
+1k862la,"Hey folks, I’m working on an idea for a SaaS platform and would love your honest thoughts.
+
+The idea is simple:
+You connect your existing database (MySQL, PostgreSQL, etc.), and then you can just type what you want in plain English like:
+
+“Show me the top 10 customers by revenue last year”
+
+“Find users who haven’t logged in since January”
+
+“Join orders and payments and calculate the refund rate by product category”
+
+
+No matter how complex the query is, the platform generates the correct SQL for you. It’s meant to save time, especially for non-SQL-savvy teams or even analysts who want to move faster.
+
+Do you think this would be useful in your workflow? What would make this genuinely valuable to you?
+",Would you use this tool? AI that writes SQL queries from natural language.,0,9,IamVeK,2025-04-26 06:01:23,https://www.reddit.com/r/dataengineering/comments/1k862la/would_you_use_this_tool_ai_that_writes_sql/,0.25,False,False,False,False
