@@ -1,6 +1,6 @@
 from utils.constants import CLIENT_ID, SECRET, OUTPUT_PATH
 from etls.reddit_etl import connect_reddit, extract_post, transform_data, load_data_to_csv
-import pandas as pd 
+import pandas as pd # type:ignore
 
 def reddit_pipeline(file_name, subreddit, time_filter="day", limit=None):
     # Connecting to reddit instance 
