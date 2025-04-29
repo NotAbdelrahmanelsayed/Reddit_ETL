@@ -3,7 +3,7 @@ from utils.constants import AWS_ACCESS_KEY, AWS_SECRET_ACCESS_KEY
 
 def connect_to_s3():
     try:
-        s3 = s3fs.S3FileSystem(anon=True,
+        s3 = s3fs.S3FileSystem(anon=False,
                                key=AWS_ACCESS_KEY, 
                                secret=AWS_SECRET_ACCESS_KEY)
         return s3
@@ -22,7 +22,7 @@ def create_bucket_if_not_exist(s3: s3fs.S3FileSystem, bucket_name: str):
 
 def upload_to_s3(s3: s3fs.S3FileSystem, file_path: str, bucket_name: str, s3_filename: str):
     try:
-        s3.put(file_path, rpath='/raw/' + s3_filename)
+        s3.put(file_path, bucket_name + '/raw/' + s3_filename)
         print("File Uploaded to s3")
     
     except FileNotFoundError:
