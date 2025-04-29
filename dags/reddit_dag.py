@@ -5,6 +5,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
 from pipelines.reddit_pipeline import reddit_pipeline
+from pipelines.aws_s3_pipeline import upload_s3_pipeline
 
 default_args = {
     "owner": "abdelrahman",
@@ -34,10 +35,10 @@ extract = PythonOperator(
     },
     dag=dag)
 
-# upload_s3 = PythonOperator(
-#     task_id="s3_upload",
-#     python_callable= upload_s3_pipeline,
-#     dag=dag
-# )
+upload_s3 = PythonOperator(
+    task_id="s3_upload",
+    python_callable= upload_s3_pipeline,
+    dag=dag
+)
 
-extract
+extract >> upload_s3

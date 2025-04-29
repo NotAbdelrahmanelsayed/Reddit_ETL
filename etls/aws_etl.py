@@ -10,7 +10,7 @@ def connect_to_s3():
     except Exception as e:
         print(e)
 
-def create_bucket_if_not_exist(s3: s3fs.FileSystem, bucket_name: str):
+def create_bucket_if_not_exist(s3: s3fs.S3FileSystem, bucket_name: str):
     try:
         if not s3.exists(bucket_name):
             s3.mkdir(bucket_name)
@@ -20,9 +20,9 @@ def create_bucket_if_not_exist(s3: s3fs.FileSystem, bucket_name: str):
     except Exception as e:
         print(e)
 
-def upload_to_s3(s3: s3fs.FileSystem, file_path: str, bucket_name: str, s3_filename: str):
+def upload_to_s3(s3: s3fs.S3FileSystem, file_path: str, bucket_name: str, s3_filename: str):
     try:
-        s3.put(file_path, bucket='/raw/' + s3_filename)
+        s3.put(file_path, rpath='/raw/' + s3_filename)
         print("File Uploaded to s3")
     
     except FileNotFoundError:
