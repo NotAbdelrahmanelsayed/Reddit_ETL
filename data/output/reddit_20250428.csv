@@ -1,0 +1,240 @@
+id,selftext,title,score,num_comments,author,created_utc,url,upvote_ratio,over_18,edited,spoiler,stickied
+1k9wng3,"Hi. I have a Databricks PySpark notebook that takes 20 minutes to run as opposed to one minute in on-prem Linux + Pandas. How can I speed it up?
+
+It's not a volume issue. The input is around 30k rows. Output is the same because there's no filtering or aggregation; just creating new fields. No collect, count, or display statements (which would slow it down). 
+
+The main thing is a bunch of mappings I need to apply, but it depends on existing fields and there are various models I need to run. So the mappings are different depending on variable and model. That's where the for loops come in. 
+
+Now I'm ***not*** iterating over the dataframe itself; just over 15 fields (different variables) and 4 different mappings. Then do that 10 times (once per model).
+
+The worker is m5d 2x large and drivers are r4 2x large, min/max workers are 4/20. This should be fine. 
+
+I attached a pic to illustrate the code flow. Does anything stand out that you think I could change or that you think Spark is slow at, such as json.load or create\_map? ",Several unavoidable for loops are slowing this PySpark code. Is it possible to improve it?,34,21,rotterdamn8,2025-04-28 14:17:28,https://i.redd.it/jyf7vzym3lxe1.png,0.91,False,False,False,False
+1k9s354,"Hi all, 
+
+Was just wondering if someone could help explain how things work in the real world, let’s say you have Kafka, airflow and use python as the main language. How do companies host all of this? I realise for some services there are hosted versions offered by cloud providers but if you are running airflow in azure or AWS for example is the recommended way to use a VM? Or is there another way that this should be done? 
+
+Thanks very much!
+
+",How are things hosted IRL?,29,8,Top-Statistician5848,2025-04-28 10:18:16,https://www.reddit.com/r/dataengineering/comments/1k9s354/how_are_things_hosted_irl/,0.92,False,False,False,False
+1k9t0ms,"I'm a final-year student who loves computer science and math, and I’m passionate about becoming an ML engineer.
+However, it's very hard to land an ML engineer job as a fresh graduate, especially in my country. So, I’m considering studying data engineering to guarantee a job, since it's the first step in the data lifecycle.
+My plan is to work as a data engineer for 2–3 years and then transition into an ML engineer role.
+
+Does this sound like solid reasoning?
+Or are DE (Data Engineering) and ML (Machine Learning) too different, since DE leans more toward software engineering than data science?",Is Starting as a Data Engineer a Good Path to Become an ML Engineer Later?,20,29,MazenMohamed1393,2025-04-28 11:17:00,https://www.reddit.com/r/dataengineering/comments/1k9t0ms/is_starting_as_a_data_engineer_a_good_path_to/,0.82,False,False,False,False
+1k9zvt5,,dbt MCP Server – Bringing Structured Data to AI Workflows and Agents,19,1,andersdellosnubes,2025-04-28 16:30:45,https://docs.getdbt.com/blog/introducing-dbt-mcp-server,0.92,False,False,False,False
+1k9h41t,Just curious if anyone has any tales of having incorrect data anywhere at some point and how it went over when they told their boss or stakeholders,Any bad data horror stories?,13,12,internet_eh,2025-04-27 23:05:11,https://www.reddit.com/r/dataengineering/comments/1k9h41t/any_bad_data_horror_stories/,0.73,False,False,False,False
+1k9zpb0,"
+I am looking for some honest feedback on how well positioned I am to break into data engineering and where I could still level up. I am currently based in the US. I really enjoy the technical side of analytics. I know python is my biggest area of improvement for now. Here is my background, track and plan:
+
+Background:
+	Bachelor’s degree in Data Analytics
+
+	3 years of experience as a Data Analyst (heavy SQL, light Python)
+
+	Daily practice improving my SQL (window functions, CTEs, optimization, etc)
+
+	Building a portfolio on GitHub that includes real-world SQL problems and code
+
+	Actively working on Python fundamentals and plan to move into ETL building soon
+
+Goals before applying:
+Build 3 to 5 end-to-end projects involving data extraction, cleaning, transformation, and loading
+
+Learn basic Airflow, dbt, and cloud services (likely AWS S3 and Lambda first)
+
+Post everything to GitHub with strong documentation and clear READMEs
+
+Questions:
+1. Based on this track, how close am I to being competitive for an entry-level or junior data engineering role? 
+2. Are there any major gaps I am not seeing? 
+
+3. Should I prioritize certain tools or skills earlier to make myself more attractive?
+4. Any advice on how I should structure my portfolio to stand out? Any certs I should get to be considered?",How well positioned am I to enter the Data Engineering job market? Where can I improve?,4,15,According-Clerk6559,2025-04-28 16:23:19,https://www.reddit.com/r/dataengineering/comments/1k9zpb0/how_well_positioned_am_i_to_enter_the_data/,0.67,False,False,False,False
+1ka0tpe,"We’ve been working on optimizing how we store distributed traces in Parseable using Apache Parquet. Columnar formats like Parquet make a huge difference for performance when you’re dealing with billions of events in large systems. Check out how we efficiently manage trace data and leverage smart caching for faster, more flexible queries.
+
+[https://www.parseable.com/blog/opentelemetry-traces-to-parquet-the-good-and-the-good](https://www.parseable.com/blog/opentelemetry-traces-to-parquet-the-good-and-the-good)",Efficiently Storing and Querying OTEL Traces with Parquet,4,0,PutHuge6368,2025-04-28 17:09:47,https://www.reddit.com/r/dataengineering/comments/1ka0tpe/efficiently_storing_and_querying_otel_traces_with/,0.84,False,False,False,False
+1k9zbyh,"Hey all, Im a DE with 3 YoE in the US. I switched careers a year out from university and landed a DE role at a consulting company. I had been applying to anything with Data in the title, but loved the role through and through initially. (Techstack mainly PySpark and AWS).
+
+Now, the clients are not buying the need for new data pipelines or the need for DE work in general so the role is more so of a data analyst, writing SQL queries for dashboards/reports (Also curious if this is common in the DE field to switch to reporting work?). Looking to work with more seasoned data teams and get more practice with devops skills and writing code but worried I just dont have enough YoE to be trusted with an in house DE role. 
+
+Ive started applying again but only heard back from consulting firms, any tips/insights for improving my chances landing a role at a non consulting firm? Is the grass greener?",How do I get out of consulting?,3,4,CD8_PerfectTCell99,2025-04-28 16:08:21,https://www.reddit.com/r/dataengineering/comments/1k9zbyh/how_do_i_get_out_of_consulting/,0.59,False,False,False,False
+1ka7j43,"
+I have 6 years of experience as BI Engineer consultant. I’m from north Europe but I’m looking for new opportunities to move either to Spain, Switzerland, Germany, applying almost for everything but all I get it’s that they moved forward with other candidates. I also apply for those jobs that are fully remote in US, Europe so I can move to cheaper countries in Asia or south Europe but even that’s impossible to catch something.
+
+What did happen in this field is it really hard for everyone and not only me ? Or it’s an area that got really saturated? 
+",Has getting job in data analytics got harder or it’s only me?,4,4,vegaslikeme1,2025-04-28 21:45:25,https://www.reddit.com/r/dataengineering/comments/1ka7j43/has_getting_job_in_data_analytics_got_harder_or/,0.83,False,False,False,False
+1ka61fg,"Hello,
+
+We have a source system that is only able to export data using a ""start"" and ""end"" date range. So for example, each day, we get a ""current month"" export for the data falling between the start of the month and the current day. We also get a ""prior month"" report each day of the data from the full prior month. Finally, we also may get a ""year to date"" file with all of the data from the start of the year to current date.
+
+Nothing in the data export itself gives us an ""as of date"" for the record (the source system uses proprietary information to give us the data that ""falls"" within that range). All we have is the date range for the individual export to go off of.
+
+I'm struggling to figure out how to model this data. Do I simply use three different ""fact"" models? One each for ""daily"" (sourced from the current month file), ""monthly"" (sourced from the prior month file), and ""yearly"" (sourced from the year to date file)? If I do that, how do I handle the different grains for the SCD Type 2 DIM table of the data? What should the VALID\_FROM/VALID\_TO columns be sourced from in this case? The daily makes sense (I would source VALID\_FROM/VALID\_TO from the ""end"" date of the data extract that keeps bumping out each day), but I don't know how that fits into the monthly or yearly data.
+
+  
+Any insight or help on this would be really appreciated.
+
+Thank you!!","How to handle modeling source system data based on date ""ranges""",3,0,jardata,2025-04-28 20:42:35,https://www.reddit.com/r/dataengineering/comments/1ka61fg/how_to_handle_modeling_source_system_data_based/,0.81,False,False,False,False
+1k9x46i,"I’m looking for open source options for orchestration tools that are more event driven rather than batch that ideally have a native NATS connector to pin/sub to NATS streams. 
+
+My use case is when a message comes in I need to trigger some ETL pipelines incl REST api calls and then publish a result back out to a different NATS stream. While I could do all this in code, it would be great to have the logging, ui, etc of an orchestration tool
+
+I’ve seen Kestra has a native NATS connector (https://kestra.io/plugins/plugin-nats), does anyone have any other alternatives? ",Open source orchestration or workflow platforms with native NATS support,3,2,FickleLife,2025-04-28 14:37:33,https://www.reddit.com/r/dataengineering/comments/1k9x46i/open_source_orchestration_or_workflow_platforms/,0.81,False,False,False,False
+1k9o614,"Hi all, wanted to share the blog post about Volga (feature calculation and data processing engine for real-time AI/ML - https://github.com/volga-project/volga), focusing on performance numbers and real-life benchmarks of it's On-Demand Compute Layer (part of the system responsible for request-time computation and serving).
+
+In this post we deploy Volga with Ray on EKS and run a real-time feature serving pipeline backed by Redis, with Locust generating the production load. Check out the post if you are interested in running, scaling and testing custom Ray-based services or in general feature serving architecture. Happy to hear your feedback! 
+
+[https://volgaai.substack.com/p/benchmarking-volgas-on-demand-compute](https://volgaai.substack.com/p/benchmarking-volgas-on-demand-compute)","Benchmarking Volga’s On-Demand Compute Layer for Feature Serving: Latency, RPS, and Scalability on EKS",3,0,saws_baws_228,2025-04-28 05:33:31,https://www.reddit.com/r/dataengineering/comments/1k9o614/benchmarking_volgas_ondemand_compute_layer_for/,0.8,False,False,False,False
+1k9lzw6,"After 3 years and 580+ research papers, I finally launched synthetic datasets for 9 rheumatic diseases.
+
+180+ features per patient, demographics, labs, diagnoses, medications, with realistic variance.
+No real patient data, just research-grade samples to raise awareness, teach, and explore chronic illness patterns.
+
+Free sample sets (1,000 patients per disease) now live. 
+
+More coming soon. Check it out and have fun, thank you all!
+",Built a Synthetic Patient Dataset for Rheumatic Diseases. Now Live!,3,0,_loading-comment_,2025-04-28 03:22:38,https://www.leukotech.com/data,0.8,False,False,False,False
+1ka3a7b,"Recently i've been reading ""Designing Data Intensive Applications"" and I came across a concept that made me a little confuse.
+
+In the section that discusses the diferent partition methods (Key Range, hash, etc) we are introduced to the concept of Secondary Indexes, in which a new mapping is created to help in the search for occurences of a particular value. The book gives two examples of data partitioning methods in this scenario:
+
+1. Partitioning Secondary Indexes By Document - The data in the distributed system is allocated to specific partition based on the key range defined to that partition (e.g.: partition 0 goes from 1-5000). 
+2. Paritioning Secodary Indexes By Term - The data in the distributed system is allocated to a specific partition base on the value of a term (e.g: all documents with **term:valueX** go to partition N).
+
+In both of the above methods a secondary index for a specific term is configured and for each value of this term a mapping like **term:value -> \[documentX1\_position, documentX2\_position\]** is created. 
+
+My question is how does the primary index and secondary index coexist? The book states that Key Range and Hash partition in the primary index can be employed alongside with the methods mentioned above for the secondary index, but it's not making sense in my head.
+
+For instance, if a Hash partition is employed for the data system documents that have a hash that belongs in partition N hash range will be stored there, but what if partition N has a partitioning term (e.g: **color = red**) based method for a secondary index and the document doesn't belong there (e.g.: document has **color = blue**)? Wouldn't the hash based partition mess up the idead behind partitioning based on term value?
+
+I also thought about the possibility of the document hash being assigned based on the partition term value (e.g.: document\_hash = hash(document\[""color""\])), but then (if I'm not mistaken) we wouldn't have the advantages of uniform distribution of data between partitions that hash based partitioning brings to the table, because all of the hashes in the term partition would be the same (same values).
+
+Maybe I didn't understood it properly, but it's not making sense in my head.",Doubt about the coexistence of different partitioning methods,2,5,dagovengo,2025-04-28 18:48:38,https://www.reddit.com/r/dataengineering/comments/1ka3a7b/doubt_about_the_coexistence_of_different/,0.76,False,False,False,False
+1k9xbqo,"I have an application that does some simple pre-processing to batch time series data and feeds it to another system. This downstream system requires data to be split into daily files for consumption. The way we do that is with Hive partitioning while processing and writing the data.
+
+The problem is data processing tools cannot deal with this stupid partitioning system, failing with OOM; sometimes we have 3 years of daily data, which incurs in over a thousand partitions.
+
+Our current data processing tool is Polars (using LazyFrames) and we were studying migrating to DuckDB. Unfortunately, none of these can handle the larger data we have with a reasonable amount of RAM. They can do the processing and write to disk without partitioning, but we get OOM when we try to partition by day. I've tried a few workarounds such as partitioning by year, and then reading the yearly files one at a time to re-partition by day, and still OOM.
+
+Any suggestions on how we could implement this, preferably without having to migrate to a distributed solution?",Handling really inefficient partitioning,2,6,Wrench-Emoji8,2025-04-28 14:46:24,https://www.reddit.com/r/dataengineering/comments/1k9xbqo/handling_really_inefficient_partitioning/,0.67,False,False,False,False
+1k9wffj,"Hey there, I'm in my last semester of 3rd year pursuing CSE-Data Science and my cllg is not doing so great like every tier 3 colleges does.. i wanted to know that focusing on these topics: Data Science, Data Engineering, AI Engineering( LLM'S, AI agents, transformers etc.) as well as some concepts of AWS and System Design. I was focused on becoming Data analyst or Data Scientist but for the analyst part there's lot of non tech folks which raised the competition and for becoming the data scientist u need lot of experience in analytics side. 
+
+I had an 1:1 session with some employees where they stated that focusing on multiple skills will raise the chances of getting hired and lower the chances of getting laid off. I had doubt regarding this, it would be helpful for replying this question as u have tried asking gpt, perplexity they are just beating around the bush.
+
+And im planning to make a study plan so that less than 12 months i could be ready for placement drive too",Full Stack Gen AI Engineer,4,0,Shy_analyst117,2025-04-28 14:07:53,https://www.reddit.com/r/dataengineering/comments/1k9wffj/full_stack_gen_ai_engineer/,0.63,False,False,False,False
+1ka6x9d,,Apache Iceberg Clustering: Technical Blog,1,0,AMDataLake,2025-04-28 21:19:36,https://www.dremio.com/blog/dremios-apache-iceberg-clustering-technical-blog/?utm_source=reddit&utm_medium=influencer&utm_campaign=iceberg&utm_term=icebergclusteringtech-04-28-2025&utm_content=alexmerced,1.0,False,False,False,False
+1ka2o0t,Does anyone have experience with improving & maintaining data quality of SAP data? Do you know of any tools or approaches in that regard? ,Data Quality with SAP?,1,0,JonasHaus,2025-04-28 18:23:14,https://www.reddit.com/r/dataengineering/comments/1ka2o0t/data_quality_with_sap/,0.67,False,False,False,False
+1k9y4zj,"First of all thanks . Iam looking for opinions how to better this dashboard because it's a task sent to me . this was my old dashboard : [https://www.reddit.com/r/dataanalytics/comments/1k8qm31/need\_opinion\_iam\_newbie\_to\_bi\_but\_they\_sent\_me/?utm\_source=share&utm\_medium=web3x&utm\_name=web3xcss&utm\_term=1&utm\_content=share\_button](https://www.reddit.com/r/dataanalytics/comments/1k8qm31/need_opinion_iam_newbie_to_bi_but_they_sent_me/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+what iam trying to asnwer : **Analyzing Sales**
+
+1. Show the total sales in dollars in different granularity.
+2. Compare the sales in dollars between 2009 and 2008 (Using Dax formula).
+3. Show the Top 10 products and its share from the total sales in dollars.
+4. Compare the forecast of 2009 with the actuals.
+5. Show the top customer(Regarding the amount they purchase) behavior & the products they buy across the year span.
+
+ Sales team should be able to filter the previous requirements by country & State.
+
+ 
+
+1. **Visualization:**
+
+* This is should be one page dashboard
+* Choose the right chart type that best represent each requirement.
+* Make sure to place the charts in the dashboard in the best way for the user to be able to get the insights needed.
+* Add drill down and other visualization features if needed.
+* You can add any extra charts/widgets to the dashboard to make it more informative.
+
+ ",Iam looking for opnions about my edited dashboard,0,9,Ok-Watercress-451,2025-04-28 15:20:13,https://www.reddit.com/gallery/1k9y4zj,0.5,False,False,False,False
+1k9txeg,"Hi guys,
+
+I'm building a small Spark cluster on Kubernetes and wonder how I can create a metastore for it? Are there any resources or tutorials? I have read the documentation, but it is not clear enough.  I hope some experts can shed light on this. Thank you in advance!",How can I set up metastore on K8s cluster?,1,1,Vw-Bee5498,2025-04-28 12:07:53,https://www.reddit.com/r/dataengineering/comments/1k9txeg/how_can_i_set_up_metastore_on_k8s_cluster/,0.67,False,False,False,False
+1k9tgkq,"Hello, everyone. 
+
+I'm having a hard time designing for ETL and would like your opinion on the best way to extract this information from my business. 
+
+I have 27 databases (PostgreSQL) that have the same modeling (Column, attributes, etc.). For a while I used Python+PsycoPg2 to extract information in a unified way from customers, vehicles and others. All this I've done at report level, no ETL jobs so far. 
+
+Now, I want to start a Datawarehouse modeling process and unifying all these databases is my priority. I'm thinking of using Airflow to manage all the Postgresql connections and using Python to perform the transformations (SCD dimension and new columns). 
+
+Can anyone shed some light on the best way to create these DAGs? A DAG for each database? or a DAG with all 27 databases knowing that the modeling of all banks are the same? ",27 Databases and same Model - ETL,1,5,ImortalDoryan,2025-04-28 11:42:22,https://www.reddit.com/r/dataengineering/comments/1k9tgkq/27_databases_and_same_model_etl/,0.6,False,False,False,False
+1ka3llv,"Hey r/dataengineering community, I’m diving into system integration and need your insights! If you’ve used middleware like MuleSoft, Workato, Celigo, Zapier, or others, please share your experience:
+
+**1. Which integration software/solutions does your organization currently use?**
+
+**2. When does your organization typically pursue integration solutions?**  
+a. During new system implementations  
+b. When scaling operations  
+c. When facing pain points (e.g., data silos, manual processes)
+
+**3. What are your biggest challenges with integration solutions?**
+
+**4. If offered as complimentary services, which would be most valuable from a third-party integration partner?**  
+a. Full integration assessment or discovery workshop  
+b. Proof of concept for a pressing need  
+c. Hands-on support during an integration sprint  
+d. Post integration health-check/assessment  
+e. Technical training for the team  
+f. Pre-built connectors or templates  
+g. None of these. Something else.
+
+Drop your thoughts below—let’s share some knowledge!",What’s Your Experience with System Integration Solutions?,0,1,AlternativeTough9168,2025-04-28 19:01:19,https://www.reddit.com/r/dataengineering/comments/1ka3llv/whats_your_experience_with_system_integration/,0.5,False,False,False,False
+1k9nkwm,"For those with extensive experience in data engineering experience, what is the usual process for developing a pipeline for production?
+
+I am a data analyst who is interested in learning about data engineering, and I acknowledge that I am lacking a lot of knowledge in software development, and hence the question. 
+
+I have been picking up different tools individually (docker, terraform, GCP, Dagster etc) but I am quite puzzled at how do I piece all these tools together.
+
+For instance, I am able to develop python script that calls an API for data, put into dataframe and ingest into postgresql, orchestras the entire process using dagster. But anything above that is beyond me. I don’t quite know how the wrap the entire process in docker, run it on GCP server etc. I am not even sure if the process is correct in the first place
+
+For experienced data engineers, what is the usual development process? Do you guys work backwards from docker first? What are some best practices that I need to be aware of.",Beginner question: I am often stuck but I am not sure what knowledge gap I am lacking,0,3,Zacarinooo,2025-04-28 04:56:00,https://www.reddit.com/r/dataengineering/comments/1k9nkwm/beginner_question_i_am_often_stuck_but_i_am_not/,0.5,False,False,False,False
+1k9inrg,"Hello everyone, first time poster here and would like to ask for help building a econometric model.
+
+Some background, I am the admin for a discord server where we have beginner traders and investors learning from tested mentors that help them make money in the finacial markets.  What we do is free and is aimed at helping beginners not lose money to the institutions play the game.
+
+One of the ideas we would like to action would be to build a econometric model to see how institutional vs retail investors/traders are positioned on a weekly bases and have predictive validity for the following week. 
+
+We figured having a data professional would be our best bet to make this a reality, so that is why I'm posting here. 
+
+Let me know if this would be possible or if you would be interested in helping us. ",Help building an econometric model to predict institutional vs retail investor orders/trades,1,1,Tanknspankn,2025-04-28 00:22:49,https://www.reddit.com/r/dataengineering/comments/1k9inrg/help_building_an_econometric_model_to_predict/,0.56,False,False,False,False
+1k9u37z,"Hey all, we're working on a group project and need help with the UI. It's an application to help data professionals quickly analyze datasets, identify quality issues and receive recommendations for improvements ( [https://github.com/Ivan-Keli/Data-Insight-Generator](https://github.com/Ivan-Keli/Data-Insight-Generator) )
+
+1. Backend; Python with FastAPI
+2. Frontend; Next.js with TailwindCSS
+3. LLM Integration; Google Gemini API and DeepSeek API",Group-Project Assistance (Data-Insight-Generator),0,0,Mc_kelly,2025-04-28 12:16:43,https://www.reddit.com/r/dataengineering/comments/1k9u37z/groupproject_assistance_datainsightgenerator/,0.4,False,False,False,False
+1k9r4s6,"**Hi everyone – I’ve checked the wiki/archives but didn’t see a recent thread on this, so I’m hoping it’s on-topic. Mods, feel free to remove if I’ve missed something.**
+
+I’m the founder of [**Notellect.ai**](http://Notellect.ai) (yes, this is self-promotion, posted under the “once-a-month” rule and with the Brand Affiliate tag). After \~2 months of hacking I’ve opened a very small beta and would love blunt, no-fluff feedback from practitioners here.
+
+**What it is:** An “agentic” vibe coding platform that sits between your data and Python:
+
+1. **Data source → LLM → Python → Result**
+2. Current sources: CSV/XLSX (adding DBs & warehouses next).
+3. You ask a question; the LLM reasons over the files, writes Python, and drops it into an integrated cloud IDE.  (Currently it uses Pyodide with numpy and pandas and more lib supports on the way)
+4. You can inspect / tweak the code, run it instantly, and the output is stored in a note for later reuse.
+
+**Why I think it matters**
+
+* Cursor/Windsurf-style “vibe coding” is amazing, but data work needs transparency and repeatability.
+* Most tools either hide the code or make you copy-paste between notebooks; I’m trying to keep everything in one place and 100 % visible.
+
+**Looking for feedback on**
+
+* Biggest missing features?
+* Deal-breakers for trust/production use?
+* Must-have data sources you’d want first?
+
+**Try it / screenshots**:[ ](https://notellect.ai)[https://app.notellect.ai/login?invitation\_code=notellectbeta](https://app.notellect.ai/login?invitation_code=notellectbeta)
+
+(use this invite link for 150 beta credits for first 100 testers)
+
+home: [www.notellect.ai](http://www.notellect.ai)
+
+Note for testing: Make sure to @ the files first (after uploading) before asking LLM questions to give it the context
+
+https://preview.redd.it/sqj5njkzjjxe1.png?width=3808&format=png&auto=webp&s=ed06ac5e8bd19714c248fb5bafd260f8d9d71722
+
+Thanks in advance for any critiques—technical, UX, or “this is pointless” are all welcome. I’ll answer every comment and won’t repost for at least a month per rule #4.",I am building an agentic Python coding copilot for data analysis and would like to hear your feedback,0,6,davidl002,2025-04-28 09:09:53,https://www.reddit.com/r/dataengineering/comments/1k9r4s6/i_am_building_an_agentic_python_coding_copilot/,0.42,False,False,False,False
