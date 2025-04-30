@@ -1,5 +1,5 @@
 from praw import Reddit # type: ignore
-from utils.constants import POST_FIELDS
+from utils.constants import logger, POST_FIELDS
 import sys
 import pandas as pd # type: ignore
 import numpy as np # type: ignore
@@ -12,11 +12,11 @@ def connect_reddit(client_id, client_secret, user_agent) -> Reddit:
             client_secret=client_secret,
             user_agent=user_agent
         )
-        print("Connected to reddit")
+        logger.info("Connected to reddit")
         return reddit
     
     except Exception as e:
-        print(e)
+        logger.exception(e)
         sys.exit(1)
 
 def extract_post(reddit_instance, subreddit, time_filter, limit=None) -> None:

@@ -1,5 +1,8 @@
 import configparser
 import os 
+from utils.logging_config import setup_logging
+
+logger = setup_logging()
 
 parser = configparser.ConfigParser()
 parser.read(os.path.join(os.path.dirname(__file__), "../config/config.conf"))
