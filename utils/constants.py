@@ -1,5 +1,5 @@
 import configparser
-import os 
+import os
 from utils.logging_config import setup_logging
 
 logger = setup_logging()
@@ -17,25 +17,25 @@ DATABASE_USERNAME = parser.get("database", "database_username")
 DATABASE_PASSWORD = parser.get("database", "database_password")
 
 # AWS
-AWS_ACCESS_KEY = parser.get('aws', 'aws_access_key')
-AWS_SECRET_ACCESS_KEY = parser.get('aws', 'aws_secret_acess_key')
-AWS_REGION = parser.get('aws', 'aws_region')
-AWS_BUCKET_NAME = parser.get("aws", "aws_bucket_name") 
+AWS_ACCESS_KEY = parser.get("aws", "aws_access_key")
+AWS_SECRET_ACCESS_KEY = parser.get("aws", "aws_secret_acess_key")
+AWS_REGION = parser.get("aws", "aws_region")
+AWS_BUCKET_NAME = parser.get("aws", "aws_bucket_name")
 
 
 INPUT_PATH = parser.get("file_paths", "input_path")
-OUTPUT_PATH = parser.get("file_paths", "output_path") 
+OUTPUT_PATH = parser.get("file_paths", "output_path")
 
 POST_FIELDS = (
-    'id',
-    'title',
-    'score',
-    'num_comments',
-    'author',
-    'created_utc',
-    'url',
-    'over_18',
-    'edited',
-    'spoiler',
-    'stickied',
+    "id",
+    "title",
+    "score",
+    "num_comments",
+    "author",
+    "created_utc",
+    "url",
+    "over_18",
+    "edited",
+    "spoiler",
+    "stickied",
 )

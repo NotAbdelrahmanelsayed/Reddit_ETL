@@ -1,4 +1,5 @@
 import os, sys
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from airflow import DAG
@@ -19,7 +20,7 @@ dag = DAG(
     default_args=default_args,
     schedule_interval="@daily",
     catchup=False,
-    tags=["reddit", "etl"]
+    tags=["reddit", "etl"],
 )
 
 
@@ -28,17 +29,16 @@ extract = PythonOperator(
     task_id="reddit_extraction",
     python_callable=reddit_pipeline,
     op_kwargs={
-        'file_name': f'reddit_{file_postfix}',
-        'subreddit': 'dataengineering',
-        'time_filter': 'day',
-        'limit': 100
+        "file_name": f"reddit_{file_postfix}",
+        "subreddit": "dataengineering",
+        "time_filter": "day",
+        "limit": 100,
     },
-    dag=dag)
+    dag=dag,
+)
 
 upload_s3 = PythonOperator(
-    task_id="s3_upload",
-    python_callable= upload_s3_pipeline,
-    dag=dag
+    task_id="s3_upload", python_callable=upload_s3_pipeline, dag=dag
 )
 
 extract >> upload_s3
