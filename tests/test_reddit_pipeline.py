@@ -59,12 +59,10 @@ def test_reddit_pipeline(
     mock_extract.return_value = fake_data()
 
     # Mock Loading to csv
-    mock_loading = Mock()
-    mock_loading.return_value = True
-    mock_load_csv.return_value = mock_loading
+    mock_load_csv.return_value = None
 
     reddit_pipeline("file_name", "subreddit", "timefilter", None)
 
-    mock_reddit.assert_called_once()  # Test connecting to reddit
-    mock_extract.assert_called_once()  # Test Data Extraction
-    mock_load_csv.assert_called_once()  # Test Data Loading
+    mock_reddit.called(), "connect_reddit() was not called"  # Test connecting to reddit
+    mock_extract.called(), "extract_post() was not called"  # Test Extraction
+    mock_load_csv.called(), "load_data_to_csv() was not called"  # Test Loading

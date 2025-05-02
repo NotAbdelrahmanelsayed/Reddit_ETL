@@ -1,0 +1,26 @@
+id,title,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1kc2mff,Guess skills are not transferable,613,124,vitocomido,2025-05-01 07:04:03,https://i.redd.it/p8t4uyicd4ye1.jpeg,False,False,False,False
+1kc7n6p,"Data governance, is it still worth learning it in 2025?",48,38,Astherol,2025-05-01 12:35:49,https://www.reddit.com/r/dataengineering/comments/1kc7n6p/data_governance_is_it_still_worth_learning_it_in/,False,False,False,False
+1kc5giw,Goodbye PyDeequ: A new take on data quality in Spark,23,9,GeneBackground4270,2025-05-01 10:30:06,https://www.reddit.com/r/dataengineering/comments/1kc5giw/goodbye_pydeequ_a_new_take_on_data_quality_in/,False,False,False,False
+1kc9yjd,2 questions,21,32,sabziwala1,2025-05-01 14:22:20,https://i.redd.it/vogasdqjj6ye1.png,False,False,False,False
+1kcdfg2,Does it make sense to use DuckDB just as a pandas replacement?,19,19,diogene01,2025-05-01 16:45:52,https://www.reddit.com/r/dataengineering/comments/1kcdfg2/does_it_make_sense_to_use_duckdb_just_as_a_pandas/,False,False,False,False
+1kc4y0x,Am I missing something?,15,14,Astherol,2025-05-01 09:55:46,https://www.reddit.com/r/dataengineering/comments/1kc4y0x/am_i_missing_something/,False,False,False,False
+1kc432v,Large practice dataset,11,8,dialar77,2025-05-01 08:53:22,https://www.reddit.com/r/dataengineering/comments/1kc432v/large_practice_dataset/,False,False,False,False
+1kcd6ul,"StatQL – live, approximate SQL for huge datasets and many tenants",8,1,greensss,2025-05-01 16:36:13,https://v.redd.it/9mknlmvd77ye1,False,False,False,False
+1kc2nwb,Using Vortex to accelerate Apache Iceberg queries up to 4x,8,0,stuff_in_the_cloud,2025-05-01 07:06:59,https://spiraldb.com/post/vortex-on-ice,False,False,False,False
+1kcbp7q,Are there any good data platforms that have good built in project documentation?,5,0,Shunder10,2025-05-01 15:34:58,https://www.reddit.com/r/dataengineering/comments/1kcbp7q/are_there_any_good_data_platforms_that_have_good/,False,False,False,False
+1kcfjo6,Trying to build a full data pipeline - does this architecture make sense?,5,10,Zuzukxd,2025-05-01 18:12:45,https://www.reddit.com/r/dataengineering/comments/1kcfjo6/trying_to_build_a_full_data_pipeline_does_this/,False,False,False,False
+1kccbtp,Monthly General Discussion - May 2025,5,0,AutoModerator,2025-05-01 16:00:53,https://www.reddit.com/r/dataengineering/comments/1kccbtp/monthly_general_discussion_may_2025/,False,False,False,True
+1kc4i28,Need Help in finding resources for Apache Flink,3,1,Practical-Emu-832,2025-05-01 09:23:45,https://www.reddit.com/r/dataengineering/comments/1kc4i28/need_help_in_finding_resources_for_apache_flink/,False,False,False,False
+1kcc50e,best ai model for polars?,2,6,BigCountry1227,2025-05-01 15:53:05,https://www.reddit.com/r/dataengineering/comments/1kcc50e/best_ai_model_for_polars/,False,False,False,False
+1kcbp2m,Convert bitemporal data to iceberg table preserving time travel?,3,1,Doug1of5,2025-05-01 15:34:47,https://www.reddit.com/r/dataengineering/comments/1kcbp2m/convert_bitemporal_data_to_iceberg_table/,False,False,False,False
+1kc9jd4,Just launched a course on building a simple AI agent with Llama + Flask – free at the moment,5,4,Kairo1004,2025-05-01 14:04:16,https://www.reddit.com/r/dataengineering/comments/1kc9jd4/just_launched_a_course_on_building_a_simple_ai/,False,False,False,False
+1kc6nud,Zero Temperature Randomness in LLMs,3,0,Martynoas,2025-05-01 11:43:40,https://martynassubonis.substack.com/p/zero-temperature-randomness-in-llms,False,False,False,False
+1kc1fgx,dbt and Power BI's Semantic Layer,3,0,analytical_dream,2025-05-01 05:41:52,https://www.reddit.com/r/dataengineering/comments/1kc1fgx/dbt_and_power_bis_semantic_layer/,False,False,False,False
+1kch15n,Advice on swapping companies in current market,2,1,Ok_Substance_3605,2025-05-01 19:15:02,https://www.reddit.com/r/dataengineering/comments/1kch15n/advice_on_swapping_companies_in_current_market/,False,False,False,False
+1kch1l8,SQL Server with DBT snapshots,2,0,Mike8219,2025-05-01 19:15:31,https://www.reddit.com/r/dataengineering/comments/1kch1l8/sql_server_with_dbt_snapshots/,False,False,False,False
+1kcg2mo,Partitioning JSON Is this a mistake?,2,14,ImportanceRelative82,2025-05-01 18:34:51,https://www.reddit.com/r/dataengineering/comments/1kcg2mo/partitioning_json_is_this_a_mistake/,False,False,False,False
+1kc9ohq,The Open Source Analytics Conference (OSACon) CFP is now officially open!,1,0,Altinity_CristinaM,2025-05-01 14:10:16,https://www.reddit.com/r/dataengineering/comments/1kc9ohq/the_open_source_analytics_conference_osacon_cfp/,False,False,False,False
+1kc6nen,Shopify GraphQL Data Ingestion,0,1,SuccessRecent8762,2025-05-01 11:42:59,https://www.reddit.com/r/dataengineering/comments/1kc6nen/shopify_graphql_data_ingestion/,False,False,False,False
+1kc4h9h,I'm a beginner on a scale of 1 to 10 how much would you rate this project,0,4,thetemporaryman,2025-05-01 09:22:13,https://github.com/sksj007/creditcard_fraud_detector.git,False,False,False,False
+1kc0t2e,"Do AI solutions help with understanding data engineering, or just automate tasks?",0,2,PuzzleheadedYou4992,2025-05-01 05:01:40,https://www.reddit.com/r/dataengineering/comments/1kc0t2e/do_ai_solutions_help_with_understanding_data/,False,False,False,False
