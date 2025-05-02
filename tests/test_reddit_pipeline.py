@@ -63,6 +63,8 @@ def test_reddit_pipeline(
 
     reddit_pipeline("file_name", "subreddit", "timefilter", None)
 
-    assert mock_reddit.called, "connect_reddit() was not called"  # Test connecting to reddit
+    assert (
+        mock_reddit.called
+    ), "connect_reddit() was not called"  # Test connecting to reddit
     assert mock_extract.called, "extract_post() was not called"  # Test Extraction
     assert mock_load_csv.called, "load_data_to_csv() was not called"  # Test Loading
