@@ -172,5 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-config
+config/config.conf
 abdelrahman_accessKeys.csv
