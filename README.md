@@ -4,20 +4,30 @@ A complete data pipeline to **Extract**, **Transform**, and **Load** (ETL) Reddi
 
 ---
 
-## 🔍 Project Overview
+## 🗺️ Table of Contents
+
+* [🔍 Project Overview](#ProjectOverview)
+* [⚙️ Stack & Technologies](#StackTechnologies)
+* [🛠️ Pipeline Steps](#PipelineSteps)
+* [🚀 Quick Start](#QuickStart)
+* [📘 What I Learned](#WhatILearned)
+
+---
+
+##  1. <a name='ProjectOverview'></a>🔍 Project Overview
 
 This pipeline illustrates the complete lifecycle of ingesting data from **Reddit subreddits** and preparing it for advanced analysis and visualization in a **cloud-based data warehouse**.
 
 ---
 
-## ⚙️ Stack & Technologies
+##  2. <a name='StackTechnologies'></a>⚙️ Stack & Technologies
 
 **Tools:** Docker, Airflow, AWS S3, AWS Glue, AWS Redshift
 **Libraries/Tech:** `praw`, `pandas`, `numpy`, `s3fs`, `pytest`, `unittest`, `logging`
 
 ---
 
-## 🛠️ Pipeline Steps
+##  3. <a name='PipelineSteps'></a>🛠️ Pipeline Steps
 
 ![ETL Diagram](etl_diagram.png)
 
@@ -31,7 +41,7 @@ This pipeline illustrates the complete lifecycle of ingesting data from **Reddit
 
 ---
 
-## 🚀 Quick Start
+##  4. <a name='QuickStart'></a>🚀 Quick Start
 
 1. **Clone the repository:**
 
@@ -67,7 +77,7 @@ This pipeline illustrates the complete lifecycle of ingesting data from **Reddit
 
 ---
 
-## 📘 What I Learned
+##  5. <a name='WhatILearned'></a>📘 What I Learned
 
 * Spent **15+ hours debugging Airflow**, which taught me more than most tutorials.
 * Deep-dived into **AWS documentation**, improving my understanding of real-world AWS usage.
