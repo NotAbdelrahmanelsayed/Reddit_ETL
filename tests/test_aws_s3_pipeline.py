@@ -1,10 +1,11 @@
-import sys 
-import os 
+import sys
+import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from unittest.mock import Mock, MagicMock, patch
 from pipelines.aws_s3_pipeline import upload_s3_pipeline
 from utils.constants import AWS_BUCKET_NAME
+
 """
 We are testing
 
@@ -34,16 +35,18 @@ def test_upload_s3_pipeline(mock_s3, mock_create_bucket, mock_upload_to_s3):
     mock_s3_connection = Mock()
     mock_s3.return_value = mock_s3_connection
 
-
     # Mock Crete bucket behaviour
     mock_create_bucket.return_value = True
 
     # Mock upload_to_s3
     mock_upload_to_s3.return_value = True
-    
-    
+
     upload_s3_pipeline(mock_xcom)
 
     assert mock_s3.called, "connect_to_s3() is not called"
-    mock_create_bucket.assert_called_once_with(mock_s3_connection, AWS_BUCKET_NAME), "create_bucket_if_not_exist() is not called"
-    mock_upload_to_s3.assert_called_once_with(mock_s3_connection, 'fake/path', AWS_BUCKET_NAME, "path")
+    mock_create_bucket.assert_called_once_with(
+        mock_s3_connection, AWS_BUCKET_NAME
+    ), "create_bucket_if_not_exist() is not called"
+    mock_upload_to_s3.assert_called_once_with(
+        mock_s3_connection, "fake/path", AWS_BUCKET_NAME, "path"
+    )
