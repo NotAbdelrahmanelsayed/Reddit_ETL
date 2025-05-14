@@ -5,7 +5,7 @@ from etls.reddit_etl import (
     transform_data,
     load_data_to_csv,
 )
-import pandas as pd  
+import pandas as pd
 
 
 def reddit_pipeline(file_name, subreddit, time_filter="day", limit=None):
